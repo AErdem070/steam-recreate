@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.InstallSteam-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #171d25;
+    color: rgba(255, 255, 255, 0.8);
+    gap: 20px;
+    padding-right: 200px;
+    padding-top: 5px;
+}
+
+button{
+    background-color: green;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.steamnav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #171d25;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgba(255, 255, 255);
+    font-size: 20px;
+}
+
+.community{
+    color: #1a9bf9;
+    text-decoration: #1a9bf9;
+}
+
+img{
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+main{
+    background-image: url(/img/steambackground.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.steamprofile-container{
+    background-color: rgba(32,34,46,0.95);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 320px;
+    margin-right: 340px;
+}
